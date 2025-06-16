@@ -1,13 +1,35 @@
-# React + Vite
+# Skip Selection Page 🚛
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive React page where users can choose a skip (waste container) based on their needs. It includes filters for **Road Legal** and **Heavy Waste**, visual cards, and animated selections with pricing.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Beautiful dark-themed UI
+- Interactive skip selection cards
+- Filter buttons (All, Road Legal, Heavy Waste)
+- Live price update on selection
+- Progress step indicator
+- Responsive design (mobile friendly)
 
-## Expanding the ESLint configuration
+## 📷 Screenshot
+![image](https://github.com/user-attachments/assets/abf99723-1c34-4ee2-b7fa-8bd28c7d4ec8)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Code-Challenge" 
+## 🔧 Tech Stack
+
+- React
+- CSS Modules
+- Lucide Icons
+- JSX Components
+
+## 📁 Folder Structure
+src/
+├── components/
+│   ├── SkipCard/
+│   ├── FilterButtons/
+│   ├── StepIndicator/
+│   ├── ProgressBar/
+├── data/
+├── pages/
+├── styles/
+├── assets/
+├── App.jsx
